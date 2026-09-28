@@ -3,7 +3,6 @@
 A lightweight, real-time hardware monitoring system built with Python and FastAPI. This project utilizes a background desktop agent to stream live hardware telemetry—including CPU thermals, RAM utilization, and BIOS information—directly to a centralized IT Helpdesk dashboard via asynchronous WebSockets.
 
 ![Telemetry Dashboard](screenshot.png) 
-*(Note: Rename your screenshot file to `screenshot.png` and place it in the same folder as this README, or update the filename in these brackets)*
 
 ## Architecture
 * **Agent:** A silent Python executable running on client machines using `psutil` and `wmi`.
